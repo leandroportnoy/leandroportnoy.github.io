@@ -3,22 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leandro Alves — Apps</title>
-  <style>
-    :root { --fg: #2b2b2b; --bg: #fffdf7; --accent: #8B6FCE; }
-    @media (prefers-color-scheme: dark) { :root { --fg: #ececec; --bg: #1b1a17; --accent: #b39ce8; } }
-    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
-    a { color: var(--accent); }
-  </style>
+  <title>Tabuadinha — aprenda tabuada brincando</title>
+  <meta name="description" content="Tabuadinha: app gratuito para crianças aprenderem soma, subtração, multiplicação e divisão brincando.">
+  <meta name="theme-color" content="#F47C20">
+  <link rel="icon" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="preload" href="assets/candy-beans.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<main>
-  <h1>Apps de Leandro Alves</h1>
-  <h2>Tabuadinha</h2>
-  <p>App educativo para aprender tabuada brincando.</p>
-  <p><a href="tabuadinha/privacidade.html">Política de Privacidade</a></p>
-  <p>Contato: <a href="mailto:leandroalvessilva.oficial@gmail.com">leandroalvessilva.oficial@gmail.com</a></p>
-</main>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="brand" href="./"><img src="assets/icon.png" alt=""><span>Tabuadinha</span></a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="logo" src="assets/logo.png" alt="Tabuadinha">
+        <h1>Escolha a sua aventura matemática!</h1>
+        <p>Um app gratuito para crianças aprenderem a tabuada brincando, com reforço positivo a cada resposta.</p>
+      </section>
+
+      <section class="ops" aria-label="Operações">
+        <img src="assets/op-sum.png" alt="Somar">
+        <img src="assets/op-sub.png" alt="Subtrair">
+        <img src="assets/op-mul.png" alt="Multiplicar">
+        <img src="assets/op-div.png" alt="Dividir">
+      </section>
+
+      <section class="features">
+        <div class="card">
+          <h3>10 desafios por rodada</h3>
+          <p>Escolha a operação e o número de 1 a 10. Cada rodada tem perguntas novas e embaralhadas.</p>
+        </div>
+        <div class="card">
+          <h3>Errar faz parte</h3>
+          <p>Mensagens de incentivo e mascotes celebram cada acerto e ajudam depois de cada erro.</p>
+        </div>
+        <div class="card">
+          <h3>Seguro para crianças</h3>
+          <p>Sem cadastro e sem chat. O histórico fica só no aparelho, e os anúncios são configurados para o público infantil.</p>
+        </div>
+      </section>
+
+      <section class="card cta">
+        <img src="assets/mascot-rocket.png" alt="">
+        <div>
+          <h2>Para pais e responsáveis</h2>
+          <p>Saiba exatamente quais dados o app trata e como protegemos as crianças.</p>
+          <a class="btn purple" href="tabuadinha/privacidade.html">Política de Privacidade</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Feito por Leandro Alves · <a href="mailto:leandroalvessilva.oficial@gmail.com">leandroalvessilva.oficial@gmail.com</a>
+    </footer>
+  </div>
 </body>
 </html>
